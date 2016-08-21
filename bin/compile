@@ -18,4 +18,4 @@ BP_DIR=`cd $(dirname $0); cd ..; pwd`
 cd $BUILD_DIR
 
 # Build the javascript bundle
-npm run build
+npm run build --release
